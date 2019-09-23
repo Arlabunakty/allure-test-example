@@ -1,0 +1,3 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"[VA-26] ORDJSD taxation","Import eTax","02.1.1: Import eTax (when no ORDJ exists)","0","0","7","0","0"
+"Security","Authentication","Successful user login/logout","0","0","3","0","0"

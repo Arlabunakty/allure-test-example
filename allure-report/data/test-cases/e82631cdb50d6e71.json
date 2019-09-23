@@ -1,0 +1,249 @@
+{
+  "uid" : "e82631cdb50d6e71",
+  "name" : "1 AuthenticationFlow for user \"test.one\":\"Password01;\"",
+  "fullName" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.AuthenticationTest.testAuthenticationFlow",
+  "historyId" : "a0ef9a7a4863f7fa3fc9b6b2b5adf0fd",
+  "time" : {
+    "start" : 1569241893753,
+    "stop" : 1569241898151,
+    "duration" : 4398
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login as user \"test.one\"",
+      "time" : {
+        "start" : 1569241894990,
+        "stop" : 1569241897448,
+        "duration" : 2458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc25af7489ad2c54",
+        "name" : "Request",
+        "source" : "dc25af7489ad2c54.html",
+        "type" : "text/html",
+        "size" : 873
+      }, {
+        "uid" : "ea5e11368add6b80",
+        "name" : "Response",
+        "source" : "ea5e11368add6b80.html",
+        "type" : "text/html",
+        "size" : 8862
+      } ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "test.one"
+      }, {
+        "name" : "password",
+        "value" : "Password01;"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify access token in response",
+      "time" : {
+        "start" : 1569241897467,
+        "stop" : 1569241897491,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify access token is active",
+      "time" : {
+        "start" : 1569241897492,
+        "stop" : 1569241897644,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ca542843a9d1753",
+        "name" : "Request",
+        "source" : "7ca542843a9d1753.html",
+        "type" : "text/html",
+        "size" : 491
+      }, {
+        "uid" : "66fbac7825264b",
+        "name" : "Response",
+        "source" : "66fbac7825264b.html",
+        "type" : "text/html",
+        "size" : 523
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify access token is not active after logout",
+      "time" : {
+        "start" : 1569241897645,
+        "stop" : 1569241898109,
+        "duration" : 464
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User logout",
+        "time" : {
+          "start" : 1569241897645,
+          "stop" : 1569241897933,
+          "duration" : 288
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "de86043dd37b261c",
+          "name" : "Request",
+          "source" : "de86043dd37b261c.html",
+          "type" : "text/html",
+          "size" : 503
+        }, {
+          "uid" : "800f0fc5bb42172a",
+          "name" : "Response",
+          "source" : "800f0fc5bb42172a.html",
+          "type" : "text/html",
+          "size" : 523
+        } ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "bbb59111-520e-4be4-876c-e57d60450dae"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a117c45b230036d5",
+        "name" : "Request",
+        "source" : "a117c45b230036d5.html",
+        "type" : "text/html",
+        "size" : 491
+      }, {
+        "uid" : "b4ec6d81b5d7ebe2",
+        "name" : "Response",
+        "source" : "b4ec6d81b5d7ebe2.html",
+        "type" : "text/html",
+        "size" : 1026
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication"
+  }, {
+    "name" : "epic",
+    "value" : "Security"
+  }, {
+    "name" : "story",
+    "value" : "Successful user login/logout"
+  }, {
+    "name" : "host",
+    "value" : "c86e3437bf6e"
+  }, {
+    "name" : "thread",
+    "value" : "3400@c86e3437bf6e.Test worker(10)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.AuthenticationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.AuthenticationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAuthenticationFlow"
+  }, {
+    "name" : "suite",
+    "value" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.AuthenticationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2de07b88e6b0c1bd",
+        "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/2de07b88e6b0c1bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569230483270,
+          "stop" : 1569230488467,
+          "duration" : 5197
+        }
+      }, {
+        "uid" : "d495dd221c49f44d",
+        "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/d495dd221c49f44d",
+        "status" : "broken",
+        "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+        "time" : {
+          "start" : 1569224979034,
+          "stop" : 1569224982951,
+          "duration" : 3917
+        }
+      }, {
+        "uid" : "bc768440974ca997",
+        "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/bc768440974ca997",
+        "status" : "broken",
+        "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+        "time" : {
+          "start" : 1569224673222,
+          "stop" : 1569224676806,
+          "duration" : 3584
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e82631cdb50d6e71.json",
+  "parameterValues" : [ ]
+}

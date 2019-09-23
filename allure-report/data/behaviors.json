@@ -1,0 +1,159 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Security",
+    "children" : [ {
+      "name" : "Authentication",
+      "children" : [ {
+        "name" : "Successful user login/logout",
+        "children" : [ {
+          "name" : "1 AuthenticationFlow for user \"test.one\":\"Password01;\"",
+          "uid" : "e82631cdb50d6e71",
+          "parentUid" : "4fa910e7265195fe76d99080ed4b40d7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241893753,
+            "stop" : 1569241898151,
+            "duration" : 4398
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "2 AuthenticationFlow for user \"test.two\":\"Password01;\"",
+          "uid" : "96ce8d85189cc24e",
+          "parentUid" : "4fa910e7265195fe76d99080ed4b40d7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241898272,
+            "stop" : 1569241899237,
+            "duration" : 965
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "3 AuthenticationFlow for user \"test.three\":\"Password03;\"",
+          "uid" : "2ab9dc020be2d47a",
+          "parentUid" : "4fa910e7265195fe76d99080ed4b40d7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241899276,
+            "stop" : 1569241900117,
+            "duration" : 841
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4fa910e7265195fe76d99080ed4b40d7"
+      } ],
+      "uid" : "53be1234b3a04b6c4d2817ab41ba7704"
+    } ],
+    "uid" : "526d0329f324aba33fe765945cd65d47"
+  }, {
+    "name" : "[VA-26] ORDJSD taxation",
+    "children" : [ {
+      "name" : "Import eTax",
+      "children" : [ {
+        "name" : "02.1.1: Import eTax (when no ORDJ exists)",
+        "children" : [ {
+          "name" : "1 Import SelfDeclaration for JP taxpayer year 2014",
+          "uid" : "198fa4cc0b458039",
+          "parentUid" : "ecad02e7b416dc14f62f8d31f7976b6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241900966,
+            "stop" : 1569241919841,
+            "duration" : 18875
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "2 Import SelfDeclaration for JP taxpayer year 2015",
+          "uid" : "a1fcb414d4addb33",
+          "parentUid" : "ecad02e7b416dc14f62f8d31f7976b6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241919874,
+            "stop" : 1569241938758,
+            "duration" : 18884
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "3 Import SelfDeclaration for JP taxpayer year 2016",
+          "uid" : "cb4ce8975a07124",
+          "parentUid" : "ecad02e7b416dc14f62f8d31f7976b6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241938775,
+            "stop" : 1569241953816,
+            "duration" : 15041
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "4 Import SelfDeclaration for JP taxpayer year 2017",
+          "uid" : "a7ac577893628a2",
+          "parentUid" : "ecad02e7b416dc14f62f8d31f7976b6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241953828,
+            "stop" : 1569241968274,
+            "duration" : 14446
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "5 Import SelfDeclaration for JP taxpayer year 2018",
+          "uid" : "493d53050f8f285b",
+          "parentUid" : "ecad02e7b416dc14f62f8d31f7976b6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241968288,
+            "stop" : 1569241984039,
+            "duration" : 15751
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "6 Import SelfDeclaration for JP taxpayer year 2019",
+          "uid" : "fb7d1010f94111e1",
+          "parentUid" : "ecad02e7b416dc14f62f8d31f7976b6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569241984055,
+            "stop" : 1569242002499,
+            "duration" : 18444
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "7 Import SelfDeclaration for JP taxpayer year 2020",
+          "uid" : "e1fb3e346d00eae",
+          "parentUid" : "ecad02e7b416dc14f62f8d31f7976b6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1569242002512,
+            "stop" : 1569242020672,
+            "duration" : 18160
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ecad02e7b416dc14f62f8d31f7976b6a"
+      } ],
+      "uid" : "cac930fc1f1cbf834e349cfbc8888f6a"
+    } ],
+    "uid" : "075f64d19ba3c8bef2c6d658522f6d1d"
+  } ]
+}

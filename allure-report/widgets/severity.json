@@ -1,0 +1,101 @@
+[ {
+  "uid" : "e82631cdb50d6e71",
+  "name" : "1 AuthenticationFlow for user \"test.one\":\"Password01;\"",
+  "time" : {
+    "start" : 1569241893753,
+    "stop" : 1569241898151,
+    "duration" : 4398
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7ac577893628a2",
+  "name" : "4 Import SelfDeclaration for JP taxpayer year 2017",
+  "time" : {
+    "start" : 1569241953828,
+    "stop" : 1569241968274,
+    "duration" : 14446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "493d53050f8f285b",
+  "name" : "5 Import SelfDeclaration for JP taxpayer year 2018",
+  "time" : {
+    "start" : 1569241968288,
+    "stop" : 1569241984039,
+    "duration" : 15751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb4ce8975a07124",
+  "name" : "3 Import SelfDeclaration for JP taxpayer year 2016",
+  "time" : {
+    "start" : 1569241938775,
+    "stop" : 1569241953816,
+    "duration" : 15041
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1fcb414d4addb33",
+  "name" : "2 Import SelfDeclaration for JP taxpayer year 2015",
+  "time" : {
+    "start" : 1569241919874,
+    "stop" : 1569241938758,
+    "duration" : 18884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb7d1010f94111e1",
+  "name" : "6 Import SelfDeclaration for JP taxpayer year 2019",
+  "time" : {
+    "start" : 1569241984055,
+    "stop" : 1569242002499,
+    "duration" : 18444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "198fa4cc0b458039",
+  "name" : "1 Import SelfDeclaration for JP taxpayer year 2014",
+  "time" : {
+    "start" : 1569241900966,
+    "stop" : 1569241919841,
+    "duration" : 18875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ab9dc020be2d47a",
+  "name" : "3 AuthenticationFlow for user \"test.three\":\"Password03;\"",
+  "time" : {
+    "start" : 1569241899276,
+    "stop" : 1569241900117,
+    "duration" : 841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1fb3e346d00eae",
+  "name" : "7 Import SelfDeclaration for JP taxpayer year 2020",
+  "time" : {
+    "start" : 1569242002512,
+    "stop" : 1569242020672,
+    "duration" : 18160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96ce8d85189cc24e",
+  "name" : "2 AuthenticationFlow for user \"test.two\":\"Password01;\"",
+  "time" : {
+    "start" : 1569241898272,
+    "stop" : 1569241899237,
+    "duration" : 965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

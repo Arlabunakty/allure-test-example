@@ -1,0 +1,147 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication",
+    "children" : [ {
+      "name" : "AuthenticationTest",
+      "children" : [ {
+        "name" : "testAuthenticationFlow",
+        "uid" : "e82631cdb50d6e71",
+        "parentUid" : "3f648f23aeedb935b981e51f9c5aeec5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241893753,
+          "stop" : 1569241898151,
+          "duration" : 4398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAuthenticationFlow",
+        "uid" : "96ce8d85189cc24e",
+        "parentUid" : "3f648f23aeedb935b981e51f9c5aeec5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241898272,
+          "stop" : 1569241899237,
+          "duration" : 965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAuthenticationFlow",
+        "uid" : "2ab9dc020be2d47a",
+        "parentUid" : "3f648f23aeedb935b981e51f9c5aeec5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241899276,
+          "stop" : 1569241900117,
+          "duration" : 841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f648f23aeedb935b981e51f9c5aeec5"
+    }, {
+      "name" : "ORDJSDImportTest",
+      "children" : [ {
+        "name" : "importSelfDeclaration",
+        "uid" : "198fa4cc0b458039",
+        "parentUid" : "524c0d301e539157137a5207a8189bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241900966,
+          "stop" : 1569241919841,
+          "duration" : 18875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "importSelfDeclaration",
+        "uid" : "a1fcb414d4addb33",
+        "parentUid" : "524c0d301e539157137a5207a8189bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241919874,
+          "stop" : 1569241938758,
+          "duration" : 18884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "importSelfDeclaration",
+        "uid" : "cb4ce8975a07124",
+        "parentUid" : "524c0d301e539157137a5207a8189bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241938775,
+          "stop" : 1569241953816,
+          "duration" : 15041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "importSelfDeclaration",
+        "uid" : "a7ac577893628a2",
+        "parentUid" : "524c0d301e539157137a5207a8189bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241953828,
+          "stop" : 1569241968274,
+          "duration" : 14446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "importSelfDeclaration",
+        "uid" : "493d53050f8f285b",
+        "parentUid" : "524c0d301e539157137a5207a8189bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241968288,
+          "stop" : 1569241984039,
+          "duration" : 15751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "importSelfDeclaration",
+        "uid" : "fb7d1010f94111e1",
+        "parentUid" : "524c0d301e539157137a5207a8189bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569241984055,
+          "stop" : 1569242002499,
+          "duration" : 18444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "importSelfDeclaration",
+        "uid" : "e1fb3e346d00eae",
+        "parentUid" : "524c0d301e539157137a5207a8189bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569242002512,
+          "stop" : 1569242020672,
+          "duration" : 18160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "524c0d301e539157137a5207a8189bb8"
+    } ],
+    "uid" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication"
+  } ]
+}

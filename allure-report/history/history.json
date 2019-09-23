@@ -1,0 +1,492 @@
+{
+  "b80d4642365508ed2f87701baf901dce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "493d53050f8f285b",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/493d53050f8f285b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241968288,
+        "stop" : 1569241984039,
+        "duration" : 15751
+      }
+    }, {
+      "uid" : "e5224a1f9e49788b",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/e5224a1f9e49788b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230576953,
+        "stop" : 1569230591006,
+        "duration" : 14053
+      }
+    }, {
+      "uid" : "d2ab1bc0c2fca0c",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/d2ab1bc0c2fca0c",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224987259,
+        "stop" : 1569224987736,
+        "duration" : 477
+      }
+    }, {
+      "uid" : "ab4138d46eb11aae",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/ab4138d46eb11aae",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224721898,
+        "stop" : 1569224722291,
+        "duration" : 393
+      }
+    } ]
+  },
+  "d12e9ab35e54217118980ea050ba8b23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "fb7d1010f94111e1",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/fb7d1010f94111e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241984055,
+        "stop" : 1569242002499,
+        "duration" : 18444
+      }
+    }, {
+      "uid" : "827bd3ebcf0e9b",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/827bd3ebcf0e9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230591027,
+        "stop" : 1569230614667,
+        "duration" : 23640
+      }
+    }, {
+      "uid" : "68397daf21c3247d",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/68397daf21c3247d",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224987774,
+        "stop" : 1569225005199,
+        "duration" : 17425
+      }
+    }, {
+      "uid" : "24db46ef65c57f31",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/24db46ef65c57f31",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224722340,
+        "stop" : 1569224722755,
+        "duration" : 415
+      }
+    } ]
+  },
+  "71500b174ff50065c73f153c12384659" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "96ce8d85189cc24e",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/96ce8d85189cc24e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241898272,
+        "stop" : 1569241899237,
+        "duration" : 965
+      }
+    }, {
+      "uid" : "36f2a929ce11ddca",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/36f2a929ce11ddca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230488559,
+        "stop" : 1569230489663,
+        "duration" : 1104
+      }
+    }, {
+      "uid" : "cead9d40e0ff73f8",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/cead9d40e0ff73f8",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224983184,
+        "stop" : 1569224983437,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "9d506d084b4ac374",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/9d506d084b4ac374",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224676937,
+        "stop" : 1569224677149,
+        "duration" : 212
+      }
+    } ]
+  },
+  "58e1673d86a65ee0dbd1281c9c5dca1c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "a7ac577893628a2",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/a7ac577893628a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241953828,
+        "stop" : 1569241968274,
+        "duration" : 14446
+      }
+    }, {
+      "uid" : "d0bfd92db72b90fa",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/d0bfd92db72b90fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230562773,
+        "stop" : 1569230576938,
+        "duration" : 14165
+      }
+    }, {
+      "uid" : "6cdbd8425fe58d10",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/6cdbd8425fe58d10",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224986600,
+        "stop" : 1569224987209,
+        "duration" : 609
+      }
+    }, {
+      "uid" : "c8f2012ade1faa43",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/c8f2012ade1faa43",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224721129,
+        "stop" : 1569224721861,
+        "duration" : 732
+      }
+    } ]
+  },
+  "a0ef9a7a4863f7fa3fc9b6b2b5adf0fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "e82631cdb50d6e71",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/e82631cdb50d6e71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241893753,
+        "stop" : 1569241898151,
+        "duration" : 4398
+      }
+    }, {
+      "uid" : "2de07b88e6b0c1bd",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/2de07b88e6b0c1bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230483270,
+        "stop" : 1569230488467,
+        "duration" : 5197
+      }
+    }, {
+      "uid" : "d495dd221c49f44d",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/d495dd221c49f44d",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224979034,
+        "stop" : 1569224982951,
+        "duration" : 3917
+      }
+    }, {
+      "uid" : "bc768440974ca997",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/bc768440974ca997",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224673222,
+        "stop" : 1569224676806,
+        "duration" : 3584
+      }
+    } ]
+  },
+  "9211ba608976b028734db645b6011516" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "cb4ce8975a07124",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/cb4ce8975a07124",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241938775,
+        "stop" : 1569241953816,
+        "duration" : 15041
+      }
+    }, {
+      "uid" : "3c3efccfe7c34454",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/3c3efccfe7c34454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230550663,
+        "stop" : 1569230562763,
+        "duration" : 12100
+      }
+    }, {
+      "uid" : "97df08e76ce325f6",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/97df08e76ce325f6",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224986046,
+        "stop" : 1569224986523,
+        "duration" : 477
+      }
+    }, {
+      "uid" : "a405ff7e3cd6e227",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/a405ff7e3cd6e227",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224720674,
+        "stop" : 1569224721087,
+        "duration" : 413
+      }
+    } ]
+  },
+  "2da5389873837f5120dbf51330a96dc0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "2ab9dc020be2d47a",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/2ab9dc020be2d47a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241899276,
+        "stop" : 1569241900117,
+        "duration" : 841
+      }
+    }, {
+      "uid" : "e71a7c95c0225c2c",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/e71a7c95c0225c2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230489682,
+        "stop" : 1569230490952,
+        "duration" : 1270
+      }
+    }, {
+      "uid" : "1c8991312b836c9",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/1c8991312b836c9",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224983483,
+        "stop" : 1569224983743,
+        "duration" : 260
+      }
+    }, {
+      "uid" : "d0ddb807da646ad5",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/d0ddb807da646ad5",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224677208,
+        "stop" : 1569224677494,
+        "duration" : 286
+      }
+    } ]
+  },
+  "5137fedca4c760d75b77af537895c9cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "a1fcb414d4addb33",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/a1fcb414d4addb33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241919874,
+        "stop" : 1569241938758,
+        "duration" : 18884
+      }
+    }, {
+      "uid" : "424d8e634924c8de",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/424d8e634924c8de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230535073,
+        "stop" : 1569230550640,
+        "duration" : 15567
+      }
+    }, {
+      "uid" : "b0b1510259645f85",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/b0b1510259645f85",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224985552,
+        "stop" : 1569224985995,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "ec6c0409cc9a087",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/ec6c0409cc9a087",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224720247,
+        "stop" : 1569224720632,
+        "duration" : 385
+      }
+    } ]
+  },
+  "79ecec5dfac620108c5b8844448343ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "e1fb3e346d00eae",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/e1fb3e346d00eae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569242002512,
+        "stop" : 1569242020672,
+        "duration" : 18160
+      }
+    }, {
+      "uid" : "c7a34c2db0350ef8",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/c7a34c2db0350ef8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230614677,
+        "stop" : 1569230637047,
+        "duration" : 22370
+      }
+    }, {
+      "uid" : "d83ffddc3e1fa1fd",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/d83ffddc3e1fa1fd",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569225005229,
+        "stop" : 1569225005624,
+        "duration" : 395
+      }
+    }, {
+      "uid" : "719fae2203e7574b",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/719fae2203e7574b",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224722808,
+        "stop" : 1569224723562,
+        "duration" : 754
+      }
+    } ]
+  },
+  "d1d1d91be711bda12821e5d1ab81aa5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "198fa4cc0b458039",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure/#testresult/198fa4cc0b458039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569241900966,
+        "stop" : 1569241919841,
+        "duration" : 18875
+      }
+    }, {
+      "uid" : "81995758e76d55d9",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/81995758e76d55d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1569230491737,
+        "stop" : 1569230535024,
+        "duration" : 43287
+      }
+    }, {
+      "uid" : "bbb41d8c0b40ed00",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/bbb41d8c0b40ed00",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224985050,
+        "stop" : 1569224985520,
+        "duration" : 470
+      }
+    }, {
+      "uid" : "86a563d1282995a",
+      "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/86a563d1282995a",
+      "status" : "broken",
+      "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+      "time" : {
+        "start" : 1569224678588,
+        "stop" : 1569224720218,
+        "duration" : 41630
+      }
+    } ]
+  }
+}

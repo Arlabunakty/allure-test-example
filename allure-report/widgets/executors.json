@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:32781/",
+  "buildOrder" : 8,
+  "buildName" : "elster-aqa » feature/improvements_before_demo feature/improvements_before_demo #8",
+  "buildUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure"
+} ]

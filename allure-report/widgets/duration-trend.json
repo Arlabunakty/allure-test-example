@@ -1,0 +1,29 @@
+[ {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 126919
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 153777
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 26590
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 50340
+  }
+} ]

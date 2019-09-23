@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "3aebf1ef58d573bba0aec50bd4a69624",
+    "name" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.ORDJSDImportTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "51e9e5d195f37bd7511afa5eb0036c84",
+    "name" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.AuthenticationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

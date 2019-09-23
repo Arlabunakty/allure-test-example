@@ -1,0 +1,405 @@
+{
+  "uid" : "fb7d1010f94111e1",
+  "name" : "6 Import SelfDeclaration for JP taxpayer year 2019",
+  "fullName" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.ORDJSDImportTest.importSelfDeclaration",
+  "historyId" : "d12e9ab35e54217118980ea050ba8b23",
+  "time" : {
+    "start" : 1569241984055,
+    "stop" : 1569242002499,
+    "duration" : 18444
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "The user is logged in to Elster. User has access authorizations: [VA_SELBSTDEKLARATION_VERWALTEN].",
+      "time" : {
+        "start" : 1569241984064,
+        "stop" : 1569241984545,
+        "duration" : 481
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login as user \"test.one\"",
+        "time" : {
+          "start" : 1569241984064,
+          "stop" : 1569241984544,
+          "duration" : 480
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2bbec2ecac1677d3",
+          "name" : "Request",
+          "source" : "2bbec2ecac1677d3.html",
+          "type" : "text/html",
+          "size" : 873
+        }, {
+          "uid" : "c76b08f3cdeed0fc",
+          "name" : "Response",
+          "source" : "c76b08f3cdeed0fc.html",
+          "type" : "text/html",
+          "size" : 8862
+        } ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "test.one"
+        }, {
+          "name" : "password",
+          "value" : "Password01;"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "clerkPermissions",
+        "value" : "[VA_SELBSTDEKLARATION_VERWALTEN]"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Find JP person.",
+      "time" : {
+        "start" : 1569241984545,
+        "stop" : 1569241985006,
+        "duration" : 461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "101eb1a71dca1900",
+        "name" : "Request",
+        "source" : "101eb1a71dca1900.html",
+        "type" : "text/html",
+        "size" : 537
+      }, {
+        "uid" : "adc32be96a7fd6d4",
+        "name" : "Response",
+        "source" : "adc32be96a7fd6d4.html",
+        "type" : "text/html",
+        "size" : 2155
+      } ],
+      "parameters" : [ {
+        "name" : "taxPayerType",
+        "value" : "JP"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check that there is no ORDJSD tax record for 2019 tax year.",
+      "time" : {
+        "start" : 1569241985006,
+        "stop" : 1569241986794,
+        "duration" : 1788
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e6b85f60a933d97",
+        "name" : "Request",
+        "source" : "9e6b85f60a933d97.html",
+        "type" : "text/html",
+        "size" : 501
+      }, {
+        "uid" : "eeba5c41b3804844",
+        "name" : "Response",
+        "source" : "eeba5c41b3804844.html",
+        "type" : "text/html",
+        "size" : 9303
+      }, {
+        "uid" : "4f525895bd00e7c1",
+        "name" : "Request",
+        "source" : "4f525895bd00e7c1.html",
+        "type" : "text/html",
+        "size" : 515
+      }, {
+        "uid" : "7e4b1340efc9645b",
+        "name" : "Response",
+        "source" : "7e4b1340efc9645b.html",
+        "type" : "text/html",
+        "size" : 8062
+      } ],
+      "parameters" : [ {
+        "name" : "year",
+        "value" : "2019"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Self-declaration exists on the server in folder with self declarations.",
+      "time" : {
+        "start" : 1569241986795,
+        "stop" : 1569241987443,
+        "duration" : 648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taxPayer",
+        "value" : "TaxPayer(peid=75422, taxPayerType=JP)"
+      }, {
+        "name" : "taxRecordType",
+        "value" : "ORDJSD"
+      }, {
+        "name" : "year",
+        "value" : "2019"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on '...' grid icon > eTax einlesen.",
+      "time" : {
+        "start" : 1569241987443,
+        "stop" : 1569241987443,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check appeared warning/error messages during import self-declaration.",
+      "time" : {
+        "start" : 1569241987443,
+        "stop" : 1569241994977,
+        "duration" : 7534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4cb35f40b9bb5a7c",
+        "name" : "Request",
+        "source" : "4cb35f40b9bb5a7c.html",
+        "type" : "text/html",
+        "size" : 529
+      }, {
+        "uid" : "10d4c959f599182c",
+        "name" : "Response",
+        "source" : "10d4c959f599182c.html",
+        "type" : "text/html",
+        "size" : 1231
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check messages in \"Import Selbstdeklaration\" dialog about successful import with/without warnings.",
+      "time" : {
+        "start" : 1569241994978,
+        "stop" : 1569242001705,
+        "duration" : 6727
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8417d61152dc1d4",
+        "name" : "Request",
+        "source" : "b8417d61152dc1d4.html",
+        "type" : "text/html",
+        "size" : 561
+      }, {
+        "uid" : "b7a5042cf527b4b1",
+        "name" : "Response",
+        "source" : "b7a5042cf527b4b1.html",
+        "type" : "text/html",
+        "size" : 649
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Abbrechen in \"Import Selbstdeklaration\" dialog.",
+      "time" : {
+        "start" : 1569242001705,
+        "stop" : 1569242001705,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check ORDJSD tax record appeared in Selbstdeklarationsübersicht grid.",
+      "time" : {
+        "start" : 1569242001705,
+        "stop" : 1569242002215,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea9db3fdaa8ac719",
+        "name" : "Request",
+        "source" : "ea9db3fdaa8ac719.html",
+        "type" : "text/html",
+        "size" : 501
+      }, {
+        "uid" : "f46d833fdfa2511f",
+        "name" : "Response",
+        "source" : "f46d833fdfa2511f.html",
+        "type" : "text/html",
+        "size" : 9303
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User logout",
+      "time" : {
+        "start" : 1569242002215,
+        "stop" : 1569242002492,
+        "duration" : 277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa25488097facdb8",
+        "name" : "Request",
+        "source" : "fa25488097facdb8.html",
+        "type" : "text/html",
+        "size" : 503
+      }, {
+        "uid" : "7157f50f9eb63299",
+        "name" : "Response",
+        "source" : "7157f50f9eb63299.html",
+        "type" : "text/html",
+        "size" : 523
+      } ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "e94748e6-f65c-472a-a014-361be53883e5"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Import eTax"
+  }, {
+    "name" : "epic",
+    "value" : "[VA-26] ORDJSD taxation"
+  }, {
+    "name" : "story",
+    "value" : "02.1.1: Import eTax (when no ORDJ exists)"
+  }, {
+    "name" : "host",
+    "value" : "c86e3437bf6e"
+  }, {
+    "name" : "thread",
+    "value" : "3400@c86e3437bf6e.Test worker(10)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.ORDJSDImportTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.ORDJSDImportTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "importSelfDeclaration"
+  }, {
+    "name" : "suite",
+    "value" : "ua.arlabunakty.elster.autotesting.suite.smoke.authentication.ORDJSDImportTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "827bd3ebcf0e9b",
+        "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/7/allure/#testresult/827bd3ebcf0e9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1569230591027,
+          "stop" : 1569230614667,
+          "duration" : 23640
+        }
+      }, {
+        "uid" : "68397daf21c3247d",
+        "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/6/allure/#testresult/68397daf21c3247d",
+        "status" : "broken",
+        "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+        "time" : {
+          "start" : 1569224987774,
+          "stop" : 1569225005199,
+          "duration" : 17425
+        }
+      }, {
+        "uid" : "24db46ef65c57f31",
+        "reportUrl" : "http://localhost:32781/job/elster-aqa/job/feature%252Fimprovements_before_demo/5/allure/#testresult/24db46ef65c57f31",
+        "status" : "broken",
+        "statusDetails" : "status 500 reading AuthenticationClient#requestToken(AuthTokenRequest)",
+        "time" : {
+          "start" : 1569224722340,
+          "stop" : 1569224722755,
+          "duration" : 415
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fb7d1010f94111e1.json",
+  "parameterValues" : [ ]
+}
